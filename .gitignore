@@ -1,0 +1,12 @@
+# data & model artefacts
+/data/
+/models/
+/reports/figures/
+/**/*.ipynb_checkpoints/
+
+# Python
+.venv/
+__pycache__/
+
+# OS
+.DS_Store
