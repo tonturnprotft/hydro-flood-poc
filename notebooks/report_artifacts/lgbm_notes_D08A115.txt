@@ -1,0 +1,5 @@
+1) Recent discharge lags dominate (e.g., dis_lag_1h, dis_lag_5h, dis_lag_12h).
+2) Short-horizon rainfall sums contribute (rain_sum_6h, rain_sum_3h); EWMA captures persistence.
+3) Rate-of-change features (dis_rate_3h, dis_rate_1h) help detect surges.
+4) Range/variability (dis_std_12h, dis_std_6h) adds volatility context.
+5) Mild seasonal effects present (hour_sin, doy_sin).
